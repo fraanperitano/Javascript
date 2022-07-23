@@ -1,9 +1,25 @@
-let nombre = prompt ("Ingrese su nombre");
+let entrada = prompt ("ingresa tu nombre");
+let salida = entrada + " pudiste " + " ingresar ";
+alert(salida);
+console.log(salida);
 
-alert("Bienvenido loco o loca ;)");
+let titulo = prompt("sumate esto  2 + 4");
+let numeroa = 2;
+let numerob = 4;
+const c = numeroa + numerob;
+let respuestafinal = " estas en lo correcto el resultado es " +  c;
+alert(respuestafinal);
 
-let apellido = prompt ("te falto el apellido loquito/a");
-alert("Ahora si jeje");
+let edad = prompt ("edad");
+let edadnumerica = parseInt (edad);
+let fechanacimiento = 2022 - edadnumerica;
+let respuesta = "naciste en el año" + fechanacimiento
+alert(respuesta);
+console.log(respuesta);
 
-let suma = prompt ("Vamos a revisar tu IQ con una suma extremadamente dificil cuanto es 1 + 1?")
-alert("Dijiste 2? pues no, segun ella es 3 ¡Segui Participando! xd")
+let i = 1;
+while (i < 10) 
+{
+console.log(i);
+i++;
+}
