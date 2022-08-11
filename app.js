@@ -26,6 +26,7 @@ i++;
 }
 */
 
+/*
 let array = [];
 for(let i=1;i<=10;i++){
     array.push(i);
@@ -36,4 +37,34 @@ console.log(array);
 
 let array_numeros = [10,20,30,40,50,60,70,80];
 console.log(array_numeros[5]);
+*/
+
+
+
+
+/*EVENTO*/
+
+(function(){ 
+    
+    var hola = function(){ alert('hola'); 
+}; 
+
+    var bienvenido = function(){ alert('bienvenido'); 
+}; 
+
+    var ladron = function(){ alert('ladron'); 
+}; 
+
+
+    var boton = document.getElementById( 'boton' ) ; 
+    boton.addEventListener("click", hola);  
+    boton.addEventListener("click", bienvenido); 
+    boton.addEventListener("click", ladron); 
+
+
+}())
+
+
+
+
 

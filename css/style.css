@@ -1,0 +1,26 @@
+
+#boton{
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;	
+        text-decoration: none;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: #d1ec38;
+        font-weight: 900;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+}
+
+#boton:hover {background-color: #fa64f2
+
+}
+
+#boton:active {
+        background-color: #6bdae9;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
